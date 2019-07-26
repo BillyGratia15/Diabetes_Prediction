@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Your Prediction...</title>
+    <style>
+        body {
+            background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/00/03/16/44561d276fb994f.jpg");
+            background-size: 1300px 620px
+            }
+        div.table {
+            display: block;
+            text-align: center;
+            }
+        table {
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
+            }
+    </style>
+</head>
+<body style="text-align: center">
+    <h1 style="color:blue">SUMMARY</h1><br>
+    <div class="table">
+        <table style="text-align: center; padding: 20px 0px; text-align: center">
+            <tr>
+                <td style="font-size: 20px; width: 150px">Pregnancies: {{ result.P }}</td>
+            </tr>    
+            <tr>
+                <td style="font-size: 20px; width: 150px">Glucose: {{ result.G }}</td>
+            </tr>
+            <tr>
+                <td style="font-size: 20px; width: 200px">Blood Pressure: {{ result.BP }}</td>
+            </tr>
+            <tr>
+                <td style="font-size: 20px; width: 150px">Skin Thickness: {{ result.ST }}</td>
+            </tr>
+            <tr>
+                <td style="font-size: 20px; width: 150px">Insulin: {{ result.I }}</td>
+            </tr>
+            <tr>
+                <td style="font-size: 20px; width: 150px">BMI: {{ result.BMI }}</td>
+            </tr>
+            <tr>
+                <td style="font-size: 20px; width: 200px">Diabetes Pedigree Function: {{ result.DPF }}</td>
+            </tr>
+            <tr>
+                <td style="font-size: 20px; width: 150px">Age: {{ result.A }}</td>
+            </tr>
+        </table>
+    </div>
+    <h2 style="font-size: 50px; color:blueviolet; font-weight: 1000; background-color:aqua; opacity: 0.8;">{{ result.preds }}</h2>
+    <a href="http://localhost:5000/prediction">
+        <button class="btn btn-outline-dark" style="display: block; margin-left: auto; margin-right: auto">PREDICT AGAIN!</button>
+        <br>
+    </a>
+    <a href="http://localhost:5000/">
+        <button class="btn btn-outline-dark" style="display: block; margin-left: auto; margin-right: auto">BACK TO HOMEPAGE!</button>
+    </a>  
+</body>
+</html>

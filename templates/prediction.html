@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Are you having Diabetes?</title>
+    <style>
+        body {
+            background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/60/69/3757a675309920b.jpg");
+            background-size: 1300px 620px
+            }
+        div.form {
+            display: block;
+            text-align: center;
+            }
+        form {
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+            }
+    </style>
+</head>
+<body style="margin: 30px">
+    <h1 style="color:white; text-align:center">FORM</h1><br>
+    <div class="form">
+        <form class="form-inline" action="http://localhost:5000/result" method="POST"
+        style="background-color: white; width:500px; padding: 20px 0px; 
+        border: 5px solid whitesmoke; text-align:center; opacity:0.9">
+            <br><br>
+            Pregnancies:
+            <input name="P" placeholder=" " type="number"
+            min="0" max="100" style="width:150px" required/>
+            <br><br>
+
+            Glucose:
+            <input name="G" placeholder=" " type="number"
+            step="any" min="0" style="width:150px"required/>
+    
+            <br><br>
+            Blood Pressure:
+            <input name="BP" placeholder=" " type="number" step="any"
+            min="0" style="width:150px"required/>
+    
+            <br><br>
+            Skin Thickness:
+            <input name="ST" placeholder=" " type="number" step="any"
+            min="0" style="width:150px"required/>
+    
+            <br><br>
+            Insulin:
+            <input name="I" placeholder=" " type="number" step="any"
+            min="0" style="width:150px"required/>
+    
+            <br><br>
+            BMI:
+            <input name="BMI" placeholder=" " type="number"
+            min="0" step="any" style="width:150px"required/>
+
+            <br><br>
+            Diabetes Pedigree Function:
+            <input name="DPF" placeholder=" " type="number"
+            step="any" style="width:150px"required/>
+
+            <br><br>
+            Age:
+            <input name="A" placeholder=" " type="number"
+            min="0" max="100" style="width:150px"required/>
+    
+            <br><br>
+            <input type="submit" value="PREDICT"/>
+        </form>
+    </div>
+    
+</body>
+</html>
