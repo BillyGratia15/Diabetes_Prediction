@@ -4,7 +4,7 @@
 
 Before im going to show you how's the webpage, i wanna show you some information:
 
-**1. Im using database 'diabetes.csv' from [here] (https://www.kaggle.com/uciml/pima-indians-diabetes-database)**
+**1. Im using database ['diabetes.csv'](https://github.com/BillyGratia15/Final_Project_JCDS/blob/master/diabetes.csv) from https://www.kaggle.com/uciml/pima-indians-diabetes-database**
 
 Based on 'diabetes.csv', this is the correlation:
 
