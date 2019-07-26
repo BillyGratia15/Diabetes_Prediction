@@ -6,7 +6,9 @@ Before im going to show you how's the webpage, i wanna show you some information
 
 **1. Im using database ['diabetes.csv'](https://github.com/BillyGratia15/Final_Project_JCDS/blob/master/diabetes.csv) from https://www.kaggle.com/uciml/pima-indians-diabetes-database**
 
-Based on 'diabetes.csv', this is the correlation:
+Based on 'diabetes.csv', theres a few missing data in columns **'Glucose', 'Blood Pressure', 'Skin Thickness', 'Insulin', 'Age', 'BMI'**.
+
+So we need to see the correlations first, here is it:
 
 ![image](https://github.com/BillyGratia15/Final_Project_JCDS/blob/master/static/corrfeatures.png)
 
