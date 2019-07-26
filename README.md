@@ -4,7 +4,7 @@
 
 Before im going to show you how's the webpage, i wanna show you some information:
 
-**1. Im using database 'diabetes.csv' from https://www.kaggle.com/uciml/pima-indians-diabetes-database**
+**1. Im using database 'diabetes.csv' from [here] (https://www.kaggle.com/uciml/pima-indians-diabetes-database)**
 
 Based on 'diabetes.csv', this is the correlation:
 
@@ -20,7 +20,7 @@ c. Skin Thickness <=> BMI
 
 So we can fill the missing data from one with another data based on its best correlations and now you have a new database without missing data. 
 
-Click [here](!https://github.com/BillyGratia15/Final_Project_JCDS/blob/master/tests.csv) to see the clean and new database.
+Click [here](https://github.com/BillyGratia15/Final_Project_JCDS/blob/master/tests.csv) to see the clean and new database.
 
 **2. Regression Analysis** 
 
