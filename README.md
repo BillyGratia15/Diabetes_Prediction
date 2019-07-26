@@ -1,14 +1,31 @@
 # **Purwadhika Job Connector Data Science Final Project**
 
-# Diabetes Prediction Web App
+# Diabetes Prediction Web App with Flask
 
-Im using database 'diabetes.csv' from https://www.kaggle.com/uciml/pima-indians-diabetes-database
+Before im going to show you how's the webpage, i wanna show you some information:
 
-Im using Logistic Regression because of its best score:
+1. Im using database 'diabetes.csv' from https://www.kaggle.com/uciml/pima-indians-diabetes-database
+
+Based on 'diabetes.csv', this is the correlation:
+
+![image](https://github.com/BillyGratia15/Final_Project_JCDS/blob/master/static/corrfeatures.png)
+
+As you can see, from the picture we can get the best correlations are:
+a. Glucose <=> Insulin
+b. Blood Pressure <=> Age
+c. Skin Thickness <=> BMI
+
+So we can fill the missing data from one with another data based on its best correlations and now you have a new database without missing data. Click here to see the new and clean database
+
+2. Regression Analysis 
+
+Im using 3 regression and here's the score:
 
 ![image](https://github.com/BillyGratia15/Final_Project_JCDS/blob/master/screenshots/scoremodel.png)
 
+So, based on score i use Logistic Regression for prediction.
 
+3. Predict Outcome:
 Based on the database:
 
 0 = You're healthy 
