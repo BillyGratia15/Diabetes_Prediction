@@ -18,7 +18,9 @@ b. Blood Pressure <=> Age
 
 c. Skin Thickness <=> BMI
 
-So we can fill the missing data from one with another data based on its best correlations and now you have a new database without missing data.
+So we can fill the missing data from one with another data based on its best correlations and now you have a new database without missing data. 
+
+Click [here](!https://github.com/BillyGratia15/Final_Project_JCDS/blob/master/tests.csv) to see the clean and new database.
 
 **2. Regression Analysis** 
 
