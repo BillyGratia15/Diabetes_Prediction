@@ -1,4 +1,5 @@
 # **Purwadhika Job Connector Data Science Final Project**
+![image](https://www.purwadhika.com/static/media/logo.b4fc6414.png)
 
 # Diabetes Prediction Web App with Flask
 
