@@ -57,18 +57,18 @@ c. HOW TO TREAT DIABETES?
 
 **2. Prediction Page:**
 
-If you click GO INPUT YOUR DATA in the Home Page, you will come to the prediction page..
+If you click **GO INPUT YOUR DATA** in the Home Page, you will come to the prediction page..
 
-You must input your data before you click "PREDICT" button or click the Form image
+You must input your data before you click **"PREDICT"** button or click the Form image
 
 ![image](https://github.com/BillyGratia15/Final_Project_JCDS/blob/master/screenshots/prediction.png)
 
 
 **3. Result Page:**
 
-After you input your data, click the "PREDICT" button
+After you input your data, click the **"PREDICT"** button
 
-And you will get the result based on your data
+And you will get the result based on your data.
 
 a. If you're healthy you will go to this page:
 
@@ -78,28 +78,28 @@ b. If you're diabetes you will go to this page:
 
 ![image](https://github.com/BillyGratia15/Final_Project_JCDS/blob/master/screenshots/positivediabetes.png)
 
-c. If you input Diabetes Pedigree Function < 0 or >= 2 you will go to 'error' page:
+c. If you input Diabetes Pedigree Function < 0 or >= 2 you will go to *error* page:
 
 ![image](https://github.com/BillyGratia15/Final_Project_JCDS/blob/master/screenshots/error.png)
 
-If you wanna predict again just click the "PREDICT AGAIN" button!
+If you wanna predict again just click the **"PREDICT AGAIN"** button!
 
-Or you also can click "BACK TO THE HOME PAGE" button
+Or you also can click **"BACK TO THE HOME PAGE"** button
 
 
 **4. Graph Page:**
 
-If you click "SEE THE CORRELATION OF THE ACTUAL DATA!" button in the Home Page, you will come to the graph page..
+If you click **"SEE THE CORRELATION OF THE ACTUAL DATA!"** button in the Home Page, you will come to the graph page..
 
 ![image](https://github.com/BillyGratia15/Final_Project_JCDS/blob/master/screenshots/graph.png)
 
 **5. Medication Page:** 
 
-If you click "HOW TO TREAT DIABETES?" button in the Home Page, you will come to the medication(feet) page..
+If you click **"HOW TO TREAT DIABETES?"** button in the Home Page, you will come to the medication(feet) page..
 
 ![image](https://github.com/BillyGratia15/Final_Project_JCDS/blob/master/screenshots/medicationfeet.png)
 
-After that, you can click "What about your food?" button to link to the medication(food) page
+After that, you can click **"What about your food?"** button to link to the medication(food) page
 
 ![image](https://github.com/BillyGratia15/Final_Project_JCDS/blob/master/screenshots/medicationfood.png)
 
