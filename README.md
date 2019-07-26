@@ -83,7 +83,7 @@ After that, you can click "What about your food?" button to link to the medicati
 ***ENJOY IT!***
 
 # NOTE
-You can also check my coding and html :D
+You can also check my coding and html in this repository :D
 
 
 
