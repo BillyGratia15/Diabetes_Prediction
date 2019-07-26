@@ -4,8 +4,6 @@
 
 Im using database 'diabetes.csv' from https://www.kaggle.com/uciml/pima-indians-diabetes-database
 
-This is web app to predict whether you're having a diabetes or not with Logistic Regression.
-
 Im using Logistic Regression because of its best score:
 
 ![image](https://github.com/BillyGratia15/Final_Project_JCDS/blob/master/screenshots/scoremodel.png)
@@ -18,6 +16,8 @@ Based on the database:
 1 = You're having a diabetes
 
 # Here's the webpage :
+This is web app to predict whether you're having a diabetes or not with Logistic Regression
+
 **1. Home Page:**
 
 You will see 3 button in the home page
