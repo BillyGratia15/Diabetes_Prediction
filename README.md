@@ -12,7 +12,7 @@ Based on the database:
 
 1 = You're having a diabetes
 
-1. Home Page:
+**1. Home Page:**
 
 You will see 3 button in the home page
 
@@ -26,7 +26,7 @@ c. HOW TO TREAT DIABETES?
 ![image](https://github.com/BillyGratia15/Final_Project_JCDS/blob/master/screenshots/home2.png)
 
 
-2. Prediction Page:
+**2. Prediction Page:**
 
 If you click GO INPUT YOUR DATA in the Home Page, you will come to the prediction page..
 
@@ -35,7 +35,7 @@ You must input your data before you click "PREDICT" button or click the Form ima
 ![image](https://github.com/BillyGratia15/Final_Project_JCDS/blob/master/screenshots/prediction.png)
 
 
-3. Result Page:
+**3. Result Page:**
 
 After you input your data, click the "PREDICT" button
 
@@ -58,13 +58,13 @@ If you wanna predict again just click the "PREDICT AGAIN" button!
 Or you also can click "BACK TO THE HOME PAGE" button
 
 
-4. Graph Page:
+**4. Graph Page:**
 
 If you click "SEE THE CORRELATION OF THE ACTUAL DATA!" button in the Home Page, you will come to the graph page..
 
 ![image](https://github.com/BillyGratia15/Final_Project_JCDS/blob/master/screenshots/graph.png)
 
-5. Medication Page 
+**5. Medication Page:** 
 
 If you click "HOW TO TREAT DIABETES?" button in the Home Page, you will come to the medication(feet) page..
 
