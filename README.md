@@ -7,6 +7,7 @@ Im using database 'diabetes.csv' from https://www.kaggle.com/uciml/pima-indians-
 Web app to predict whether you're having a diabetes or not with Logistic Regression.
 
 Im using Logistic Regression because of its best score:
+
 ![image](https://github.com/BillyGratia15/Final_Project_JCDS/blob/master/screenshots/scoremodel.png)
 
 
