@@ -26,7 +26,7 @@ Im using 3 regression and here's the score:
 
 ![image](https://github.com/BillyGratia15/Final_Project_JCDS/blob/master/screenshots/scoremodel.png)
 
-So, based on score i use Logistic Regression for prediction.
+So, im using Logistic Regression because of its best score.
 
 **3. Predict Outcome:**
 
