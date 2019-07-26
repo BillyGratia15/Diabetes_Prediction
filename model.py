@@ -22,12 +22,12 @@ xtr, xts, ytr, yts = train_test_split(
 
 # REGRESSION
 from sklearn.linear_model import LogisticRegression
-model = LogisticRegression(solver = 'liblinear')
+model = LogisticRegression(solver = 'liblinear', max_iter= 500)
 model.fit(xtr,ytr)
 print('Logistic Regression Model Score = {}%'.format(round(model.score(xts,yts)*100,2)))
 
 # from sklearn.ensemble import RandomForestClassifier
-# modelRFC = RandomForestClassifier(n_estimators=500, max_depth=2)
+# modelRFC = RandomForestClassifier(n_estimators=500, max_depth=2, random_state=42)
 # modelRFC.fit(xtr, ytr)
 # print('Random Forest Classifier Model Score = {}%'.format(round(modelRFC.score(xts,yts)*100,2)))
 
