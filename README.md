@@ -9,11 +9,9 @@ Before im going to show you how's the webpage, i wanna show you some information
 
 Based on 'diabetes.csv', there's a few missing data in columns **'Glucose', 'Blood Pressure', 'Skin Thickness', 'Insulin', 'Age', 'BMI'**.
 
-So we need to see the correlations first, here is it:
+So we need to see the correlations first
 
-![image](https://github.com/BillyGratia15/Final_Project_JCDS/blob/master/static/corrfeatures.png)
-
-As you can see, from the picture we can get the best correlations are:
+Based on data, the best correlations are:
 
 a. Glucose <=> Insulin
 

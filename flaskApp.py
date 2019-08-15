@@ -7,8 +7,6 @@ import json, requests
 import pandas as pd
 import numpy as np
 import joblib
-import base64
-import io
 from flask import Flask, render_template, url_for, redirect, request, abort
 
 app = Flask(__name__, static_url_path='')

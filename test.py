@@ -25,15 +25,16 @@ df = pd.read_csv(
 # FEATURES CORRELATION
 
 # print(df.corr(method='spearman'))
-# correlation = df.corr(method='spearman') 
-# plt.subplots(figsize=(9,6)) 
-# plt.subplots_adjust(bottom=0.23)
-# sns.heatmap(correlation, cmap ="BuGn", linewidths = 0.1, annot=True) 
-# plt.title('"Features" Correlation')
-# plt.xticks(rotation = 0)               # atur rotasi dari value x dan y
-# plt.yticks(rotation = 90)
-# plt.tight_layout()
-# plt.show()
+correlation = df.corr(method='spearman') 
+plt.subplots(figsize=(9,6)) 
+plt.subplots_adjust(bottom=0.23)
+sns.heatmap(correlation, cmap ="BuGn", linewidths = 0.1, annot=True) 
+plt.title('"Features" Correlation')
+plt.xticks(rotation = 0)               # atur rotasi dari value x dan y
+plt.yticks(rotation = 90)
+plt.tight_layout()
+plt.show()
+# plt.savefig('corrfeatures.png')
 
 # BEST CORRELATION
 # G <=> I
