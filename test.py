@@ -34,7 +34,7 @@ plt.xticks(rotation = 0)               # atur rotasi dari value x dan y
 plt.yticks(rotation = 90)
 plt.tight_layout()
 plt.show()
-# plt.savefig('corrfeatures.png')
+plt.savefig('corrfeatures.png')
 
 # BEST CORRELATION
 # G <=> I
